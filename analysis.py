@@ -16,7 +16,6 @@ for line in file:
         records.append({})
     records[-1][data[0]] = [data[1], data[2]]
         
-
 # unit is m/ms
 initial_velocity_x = []
 initial_velocity_y = []
@@ -38,6 +37,7 @@ Ymatrix = np.array(Y)
 # print(Ymatrix)
 # print(Ymatrix.shape)
 
+# Building the X matrix
 X = [[],[],[],[],[]]
 
 for i in range(0, len(records)):
