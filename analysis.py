@@ -56,6 +56,7 @@ Xmatrix = np.array(X)
 # print(Xmatrix)
 # print(Xmatrix.shape)
 
+# Getting the least square solution of W
 XT = np.transpose(Xmatrix)
 YT = np.transpose(Ymatrix)
 
@@ -63,7 +64,6 @@ YT = np.transpose(Ymatrix)
 W = np.transpose(WT)
 
 # print(W)
-
 
 # solve the question
 
